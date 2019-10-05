@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multisite Shared Media\n"
+"POT-Creation-Date: 2017-01-04 16:48+0200\n"
+"PO-Revision-Date: 2017-01-04 16:48+0200\n"
+"Last-Translator: Johannes Gangsö <jgangso@gmail.com>\n"
+"Language-Team: Aikadesign <tuki@aikadesign.fi>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:33
+msgid "Settings Admin"
+msgstr ""
+
+#: options.php:34 multisite-shared-media.php:11
+msgid "Multisite Shared Media"
+msgstr ""
+
+#: options.php:50
+msgid "Multisite Shared Media settings"
+msgstr ""
+
+#: options.php:69
+msgid "Replicate all existing media from main site"
+msgstr ""
+
+#: options.php:93 options.php:151
+msgid "Pause process"
+msgstr ""
+
+#: options.php:94
+msgid "Terminate process"
+msgstr ""
+
+#: options.php:96
+msgid "Replication process"
+msgstr ""
+
+#: options.php:99 options.php:247
+msgid "Total media:"
+msgstr ""
+
+#: options.php:99 options.php:100
+msgid "calculating..."
+msgstr ""
+
+#: options.php:100 options.php:248
+msgid "Remaining:"
+msgstr ""
+
+#: options.php:121
+msgid ""
+"Did you mean to terminate the process? No worries, you can continue it later "
+"from where you left off."
+msgstr ""
+
+#: options.php:140
+msgid "Resume process"
+msgstr ""
+
+#: options.php:192
+msgid ""
+"Great, the replication process finished. Now go and check your Shared Media "
+"Library"
+msgstr ""
+
+#: options.php:196 options.php:220
+msgid "Close window"
+msgstr ""
+
+#: options.php:216
+msgid ""
+"Sadly, the replication process failed. You can do troubleshooting by "
+"inspecting your browsers JS error log and servers PHP error log."
+msgstr ""
+
+#: options.php:240
+msgid ""
+"Oops, seems like something is wrong, the process stagnated. You may find "
+"your browser JS error log or servers PHP error log useful."
+msgstr ""
+
+#: options.php:247 options.php:248
+msgid "files"
+msgstr ""
+
+#: options.php:271
+msgid "Network-wide settings"
+msgstr ""
+
+#: options.php:278 options.php:337
+msgid "Share media across network"
+msgstr ""
+
+#: options.php:286 options.php:350
+msgid "Remove media from all sites upon media removal"
+msgstr ""
+
+#: options.php:324
+msgid ""
+"Choose how the plugin is supposed to act upon media uploads and deletion"
+msgstr ""

@@ -1,0 +1,166 @@
+.msm-overlay {
+    background: rgba(0, 0, 0, .75);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease;
+    display: none;
+    z-index: 99999;
+}
+
+.msm-modal {
+    background: rgba(255, 255, 255, 1);
+    bottom: 50%;
+    left: 13%;
+    min-height: 230px;
+    position: absolute;
+    right: 13%;
+    text-align: center;
+    top: 25%;
+    transition: all 0.5s ease;
+    display: none;
+    width: 74%;
+}
+
+.msm-modal h2 {
+    transition: all 0.5s ease;
+}
+
+.msm-replication-detail {
+    display: block;
+    margin: 6px;
+    transition: all 0.5s ease;
+}
+
+.msm-progress-bar {
+    border: 1px solid #2d9c09;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 5px 2px 11px 1px rgba(0, 0, 0, .25);
+    -moz-box-shadow: inset 5px 2px 11px 1px rgba(0, 0, 0, .25);
+    box-shadow: inset 5px 2px 11px 1px rgba(0, 0, 0, .25);
+    height: 30px;
+    margin: 20px auto;
+    width: 90%;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.msm-progress-indicator {
+    background: rgba(0, 200, 0, 1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    transition: all 0.5s ease;
+}
+
+.msm-percent-label {
+    bottom: 23%;
+    color: #565656;
+    font-weight: 600;
+    left: 45%;
+    position: absolute;
+    right: 45%;
+    top: 23%;
+    width: 10%;
+    transition: all 0.5s ease;
+}
+
+.msm-modal .button {
+    margin: 0 15px;
+    transition: all 0.5s ease;
+}
+
+.msm-admin-notice {
+    display: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 70px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    transition: all 0.5s ease;
+}
+
+#msm-replication-success {
+    background: rgba(200, 255, 200, 1);
+    border: 1px solid rgba(0, 100, 0, .5);
+    color: rgb(0, 25, 0);
+}
+
+#msm-replication-error {
+    background: rgba(255, 200, 200, 1);
+    border: 1px solid rgba(100, 0, 0, .5);
+    color: rgb(25, 0, 0);
+}
+
+#msm-close-finished {
+    display: block;
+    margin: 30px auto;
+    transition: all 0.5s ease;
+}
+
+.msm-relationship-matrix {
+    border-collapse: collapse;
+}
+
+.msm-relationship-matrix thead th {
+    /* Something you can count on */
+    height: 140px;
+    white-space: nowrap;
+}
+
+.msm-relationship-matrix thead th:first-of-type {
+    vertical-align: bottom;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.msm-relationship-matrix thead th > div {
+    transform:
+        /* Magic Numbers */
+        translate(25px, 51px)
+        /* 45 is really 360 - 45 */
+        rotate(315deg);
+    width: 28px;
+    margin-left: -6px;
+    margin-bottom: -7px;
+}
+
+.msm-relationship-matrix thead th > div > span {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 2px;
+}
+
+.msm-relationship-matrix tbody > tr:first-of-type {
+    border-top: 1px solid #ccc;
+}
+
+.msm-relationship-matrix tbody > tr > td {
+    text-align: center;
+    width: 28px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 2px;
+}
+
+.msm-relationship-matrix tbody > tr > td input[type="checkbox"]{
+    margin-right: 0;
+}
+
+.msm-relationship-matrix tbody > tr > th:first-of-type {
+    border-left: 1px solid #ccc;
+}
+
+.msm-relationship-matrix tbody th {
+    text-align: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 8px;
+}
